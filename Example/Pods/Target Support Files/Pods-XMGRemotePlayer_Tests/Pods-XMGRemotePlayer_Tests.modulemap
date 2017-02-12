@@ -1,0 +1,6 @@
+framework module Pods_XMGRemotePlayer_Tests {
+  umbrella header "Pods-XMGRemotePlayer_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
