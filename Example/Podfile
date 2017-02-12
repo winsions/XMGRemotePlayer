@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XMGRemotePlayer_Example' do
+  pod 'XMGRemotePlayer', :path => '../'
+
+  target 'XMGRemotePlayer_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
