@@ -1,5 +1,5 @@
 PODS:
-  - XMGRemotePlayer (0.1.0)
+  - XMGRemotePlayer (0.1.1)
 
 DEPENDENCIES:
   - XMGRemotePlayer (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  XMGRemotePlayer: e2c4a3a65ee89cde1f3f1391c2f981ddac8f63d8
+  XMGRemotePlayer: 18a1951e7439e184c3ccde5241b686eaf3c56430
 
 PODFILE CHECKSUM: 3ce65cb1bb0059ec1e9eebb36335f5158e2be9e9
 

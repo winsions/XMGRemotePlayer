@@ -40,9 +40,10 @@
 
 - (void)handleAllRequest {
     
-    NSMutableArray *complete = [NSMutableArray array];
-    for (AVAssetResourceLoadingRequest *loadingRequest in self.loadingRequests) {
-        
+//    NSMutableArray *complete = [NSMutableArray array];
+//    for () {
+    
+    AVAssetResourceLoadingRequest *loadingRequest = self.loadingRequests.firstObject;
         // 直接拿本地的临时缓存数据, 给请求, 让请求, 帮我们返回给服务器
         NSURL *url = loadingRequest.request.URL;
         // 1. 填充信息头
@@ -52,10 +53,10 @@
 
         // 2. 返回数据
         // 2.1 计算请求的数据区间
-        long long requestOffSet = loadingRequest.dataRequest.requestedOffset;
-        if (loadingRequest.dataRequest.currentOffset != 0) {
-            requestOffSet = loadingRequest.dataRequest.currentOffset;
-        }
+        long long requestOffSet = loadingRequest.dataRequest.currentOffset;
+//        if (loadingRequest.dataRequest.currentOffset != 0) {
+//            requestOffSet = loadingRequest.dataRequest.currentOffset;
+//        }
         long long requestLength = loadingRequest.dataRequest.requestedLength;
         
         // 2.2 根据请求的区间, 看下,本地的临时缓存,能够返回多少
@@ -72,16 +73,17 @@
             // 3. 完成请求(byteRange) (必须, 是这个请求的数据, 全部都给完了, 完成)
             if (requestLength == responseLength) {
                 [loadingRequest finishLoading];
-                [complete addObject:loadingRequest];
+                [self.loadingRequests removeObject:loadingRequest];
+//                [complete addObject:loadingRequest];
             }
         }
 
         
-    }
+//    }
     
     
-    [self.loadingRequests removeObjectsInArray:complete];
-    
+//    [self.loadingRequests removeObjectsInArray:complete];
+
 }
 
 // 只要播放器, 想要播放某个资源, 都会让资源组织者, 命令资源请求者, 调用这个方法, 去发送请求
@@ -94,16 +96,16 @@
     // 下载的url地址
      NSURL *url = [loadingRequest.request.URL httpURL];
     
-    long long requestOffSet = loadingRequest.dataRequest.requestedOffset;
-    if (loadingRequest.dataRequest.currentOffset != 0) {
-        requestOffSet = loadingRequest.dataRequest.currentOffset;
-    }
+    long long requestOffSet = self.loadingRequests.firstObject.dataRequest.currentOffset;
+    
+//    if (loadingRequest.dataRequest.currentOffset != 0) {
+//        requestOffSet = loadingRequest.dataRequest.currentOffset;
+//    }
     
     if ([XMGAudioFileTool isCacheFileExists:url])
     {
         // 三个步骤, 直接响应数据
         [self handleRequestWithLoadingRequest:loadingRequest];
-        
         return YES;
     }
     

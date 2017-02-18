@@ -1,6 +1,6 @@
 {
   "name": "XMGRemotePlayer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "XMGRemotePlayer.",
   "description": "\"播放器呀播放器想嘻嘻嘻嘻嘻嘻嘻嘻嘻\"",
   "homepage": "https://coding.net/u/seemygo_wangshunzi/p/XMGFMRemotePlayer",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://git.coding.net/seemygo_wangshunzi/XMGFMRemotePlayer.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
