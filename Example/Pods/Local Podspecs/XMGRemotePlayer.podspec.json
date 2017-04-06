@@ -1,19 +1,19 @@
 {
   "name": "XMGRemotePlayer",
-  "version": "0.1.1",
+  "version": "0.1.0",
   "summary": "XMGRemotePlayer.",
-  "description": "\"播放器呀播放器想嘻嘻嘻嘻嘻嘻嘻嘻嘻\"",
-  "homepage": "https://coding.net/u/seemygo_wangshunzi/p/XMGFMRemotePlayer",
+  "description": "\"播放器呀播https://github.com/winsions/XMGRemotePlayer.git\"",
+  "homepage": "https://github.com/winsions/XMGRemotePlayer",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "wangshunzi": "123@qq.com"
+    "Wzc": "327574878@qq.com"
   },
   "source": {
-    "git": "https://git.coding.net/seemygo_wangshunzi/XMGFMRemotePlayer.git",
-    "tag": "0.1.1"
+    "git": "https://github.com/winsions/XMGRemotePlayer.git",
+    "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
