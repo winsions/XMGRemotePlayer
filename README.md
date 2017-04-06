@@ -1,9 +1,9 @@
-# XMGRemotePlayer
+# FEVoiCerecognitLib
 
-[![CI Status](http://img.shields.io/travis/wangshunzi/XMGRemotePlayer.svg?style=flat)](https://travis-ci.org/wangshunzi/XMGRemotePlayer)
-[![Version](https://img.shields.io/cocoapods/v/XMGRemotePlayer.svg?style=flat)](http://cocoapods.org/pods/XMGRemotePlayer)
-[![License](https://img.shields.io/cocoapods/l/XMGRemotePlayer.svg?style=flat)](http://cocoapods.org/pods/XMGRemotePlayer)
-[![Platform](https://img.shields.io/cocoapods/p/XMGRemotePlayer.svg?style=flat)](http://cocoapods.org/pods/XMGRemotePlayer)
+[![CI Status](http://img.shields.io/travis/327574878@qq.com/FEVoiCerecognitLib.svg?style=flat)](https://travis-ci.org/327574878@qq.com/FEVoiCerecognitLib)
+[![Version](https://img.shields.io/cocoapods/v/FEVoiCerecognitLib.svg?style=flat)](http://cocoapods.org/pods/FEVoiCerecognitLib)
+[![License](https://img.shields.io/cocoapods/l/FEVoiCerecognitLib.svg?style=flat)](http://cocoapods.org/pods/FEVoiCerecognitLib)
+[![Platform](https://img.shields.io/cocoapods/p/FEVoiCerecognitLib.svg?style=flat)](http://cocoapods.org/pods/FEVoiCerecognitLib)
 
 ## Example
 
@@ -13,17 +13,17 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-XMGRemotePlayer is available through [CocoaPods](http://cocoapods.org). To install
+FEVoiCerecognitLib is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "XMGRemotePlayer"
+pod "FEVoiCerecognitLib"
 ```
 
 ## Author
 
-wangshunzi, 123@qq.com
+327574878@qq.com, 327574878@qq.com
 
 ## License
 
-XMGRemotePlayer is available under the MIT license. See the LICENSE file for more info.
+FEVoiCerecognitLib is available under the MIT license. See the LICENSE file for more info.
