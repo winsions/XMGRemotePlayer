@@ -5,47 +5,52 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="0: cocoapods" time="1.424042">
+      <testcase classname="fastlane.lanes" name="0: cocoapods" time="1.145465">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="1: git_add" time="0.017074">
+      <testcase classname="fastlane.lanes" name="1: git_add" time="0.02028">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="2: git_commit" time="0.03197">
+      <testcase classname="fastlane.lanes" name="2: git_commit" time="0.042887">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="3: push_to_git_remote" time="10.483055">
+      <testcase classname="fastlane.lanes" name="3: push_to_git_remote" time="5.731584">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="4: git_tag_exists" time="0.012153">
+      <testcase classname="fastlane.lanes" name="4: git_tag_exists" time="0.013231">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="5: add_git_tag" time="0.014867">
+      <testcase classname="fastlane.lanes" name="5: remove_tag" time="6.618589">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="6: push_git_tags" time="6.371444">
+      <testcase classname="fastlane.lanes" name="6: add_git_tag" time="0.016498">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="7: pod_lib_lint" time="11.876737">
+      <testcase classname="fastlane.lanes" name="7: push_git_tags" time="7.916876">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="8: pod_lib_lint" time="7.028444">
+      <testcase classname="fastlane.lanes" name="8: pod_lib_lint" time="7.691201">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="9: pod_lib_lint" time="7.397682">
         
           <failure message="/Library/Ruby/Gems/2.0.0/gems/fastlane-2.25.0/fastlane/lib/fastlane/actions/actions_helper.rb:48:in `execute_action'&#10;/Library/Ruby/Gems/2.0.0/gems/fastlane-2.25.0/fastlane/lib/fastlane/runner.rb:230:in `block in execute_action'&#10;/Library/Ruby/Gems/2.0.0/gems/fastlane-2.25.0/fastlane/lib/fastlane/runner.rb:226:in `chdir'&#10;/Library/Ruby/Gems/2.0.0/gems/fastlane-2.25.0/fastlane/lib/fastlane/runner.rb:226:in `execute_action'&#10;/Library/Ruby/Gems/2.0.0/gems/fastlane-2.25.0/fastlane/lib/fastlane/runner.rb:148:in `trigger_action_by_name'&#10;/Library/Ruby/Gems/2.0.0/gems/fastlane-2.25.0/fastlane/lib/fastlane/fast_file.rb:146:in `method_missing'&#10;Fastfile:44:in `block in parsing_binding'&#10;/Library/Ruby/Gems/2.0.0/gems/fastlane-2.25.0/fastlane/lib/fastlane/lane.rb:33:in `call'&#10;/Library/Ruby/Gems/2.0.0/gems/fastlane-2.25.0/fastlane/lib/fastlane/lane.rb:33:in `call'&#10;/Library/Ruby/Gems/2.0.0/gems/fastlane-2.25.0/fastlane/lib/fastlane/runner.rb:49:in `block in execute'&#10;/Library/Ruby/Gems/2.0.0/gems/fastlane-2.25.0/fastlane/lib/fastlane/runner.rb:45:in `chdir'&#10;/Library/Ruby/Gems/2.0.0/gems/fastlane-2.25.0/fastlane/lib/fastlane/runner.rb:45:in `execute'&#10;/Library/Ruby/Gems/2.0.0/gems/fastlane-2.25.0/fastlane/lib/fastlane/lane_manager.rb:52:in `cruise_lane'&#10;/Library/Ruby/Gems/2.0.0/gems/fastlane-2.25.0/fastlane/lib/fastlane/command_line_handler.rb:30:in `handle'&#10;/Library/Ruby/Gems/2.0.0/gems/fastlane-2.25.0/fastlane/lib/fastlane/commands_generator.rb:104:in `block (2 levels) in run'&#10;/Library/Ruby/Gems/2.0.0/gems/commander-fastlane-4.4.4/lib/commander/command.rb:178:in `call'&#10;/Library/Ruby/Gems/2.0.0/gems/commander-fastlane-4.4.4/lib/commander/command.rb:178:in `call'&#10;/Library/Ruby/Gems/2.0.0/gems/commander-fastlane-4.4.4/lib/commander/command.rb:153:in `run'&#10;/Library/Ruby/Gems/2.0.0/gems/commander-fastlane-4.4.4/lib/commander/runner.rb:476:in `run_active_command'&#10;/Library/Ruby/Gems/2.0.0/gems/fastlane-2.25.0/fastlane_core/lib/fastlane_core/ui/fastlane_runner.rb:38:in `run!'&#10;/Library/Ruby/Gems/2.0.0/gems/commander-fastlane-4.4.4/lib/commander/delegates.rb:15:in `run!'&#10;/Library/Ruby/Gems/2.0.0/gems/fastlane-2.25.0/fastlane/lib/fastlane/commands_generator.rb:303:in `run'&#10;/Library/Ruby/Gems/2.0.0/gems/fastlane-2.25.0/fastlane/lib/fastlane/commands_generator.rb:42:in `start'&#10;/Library/Ruby/Gems/2.0.0/gems/fastlane-2.25.0/fastlane/lib/fastlane/cli_tools_distributor.rb:65:in `take_off'&#10;/Library/Ruby/Gems/2.0.0/gems/fastlane-2.25.0/bin/fastlane:20:in `&lt;top (required)&gt;'&#10;/usr/bin/fastlane:22:in `load'&#10;/usr/bin/fastlane:22:in `&lt;main&gt;'&#10;&#10;Exit status of command 'pod lib lint' was 1 instead of 0.&#10;&#10; -&gt; XMGRemotePlayer -&gt; XMGRemotePlayer (0.1.0)&#10;    - WARN  | [iOS] xcodebuild:  /Users/winsion/Desktop/课堂代码git代码库/01-组件化专辑/功能组件/XMGRemotePlayer/XMGRemotePlayer/Classes/XMGResourceLoader.m:70:62: warning: implicit conversion loses integer precision: 'long long' to 'NSUInteger' (aka 'unsigned int') [-Wshorten-64-to-32]&#10;    - WARN  | [iOS] xcodebuild:  /Users/winsion/Desktop/课堂代码git代码库/01-组件化专辑/功能组件/XMGRemotePlayer/XMGRemotePlayer/Classes/XMGResourceLoader.m:70:78: warning: implicit conversion loses integer precision: 'long long' to 'NSUInteger' (aka 'unsigned int') [-Wshorten-64-to-32]&#10;    - WARN  | [iOS] xcodebuild:  /Users/winsion/Desktop/课堂代码git代码库/01-组件化专辑/功能组件/XMGRemotePlayer/XMGRemotePlayer/Classes/XMGResourceLoader.m:153:58: warning: implicit conversion loses integer precision: 'long long' to 'NSUInteger' (aka 'unsigned int') [-Wshorten-64-to-32]&#10;    - WARN  | [iOS] xcodebuild:  /Users/winsion/Desktop/课堂代码git代码库/01-组件化专辑/功能组件/XMGRemotePlayer/XMGRemotePlayer/Classes/XMGResourceLoader.m:153:73: warning: implicit conversion loses integer precision: 'long long' to 'NSUInteger' (aka 'unsigned int') [-Wshorten-64-to-32]&#10;&#10;[!] XMGRemotePlayer did not pass validation, due to 4 warnings (but you can use `--allow-warnings` to ignore them).&#10;[!] The validator for Swift projects uses Swift 3.0 by default, if you are using a different version of swift you can use a `.swift-version` file to set the version for your Pod. For example to use Swift 2.3, run: &#10;    `echo &quot;2.3&quot; &gt; .swift-version`.&#10;You can use the `--no-clean` option to inspect any issue.&#10;" />
         
